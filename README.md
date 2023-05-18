@@ -7,6 +7,18 @@ It offers a scalable and flexible solution that incorporates various design patt
 
 By integrating these components, the infrastructure empowers users to effortlessly manage their IoT ecosystem. It provides a seamless flow of data through the gateway server, efficient request handling via the request handler, and dynamic command execution using the command factory. The thread pool ensures parallel processing, enhancing overall performance and scalability
 
+## How to Install and Run the Project
+
+To utilize the IoT infrastructure, follow these steps:
+
+    1. Install the project by cloning the repository, setting up dependencies, configuring the platform settings, building the project, and starting the web server.
+
+    2. Set up a Tomcat server and deploy the project. Configure the Gateway Server to listen for incoming HTTP requests.
+
+    3. Start the server and send HTTP requests with relevant data and company information to the appropriate endpoints.
+
+    4. The executed commands will interact with the MongoDB module for data storage and retrieval. The SQL database will be updated by the Company Servlet with company and product data.
+
 ## Features
 The Generic IoT Infrastructure offers a range of features to facilitate efficient IoT operations and data management:
 1. **Company and Product Registration**: Companies can easily register themselves and their products within the platform. The registration details are securely stored in a MySQL database, allowing for seamless management of registered entities.
