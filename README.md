@@ -11,13 +11,10 @@ By integrating these components, the infrastructure empowers users to effortless
 
 To utilize the IoT infrastructure, follow these steps:
 
-    1. Install the project by cloning the repository, setting up dependencies, configuring the platform settings, building the project, and starting the web server.
-
-    2. Set up a Tomcat server and deploy the project. Configure the Gateway Server to listen for incoming HTTP requests.
-
-    3. Start the server and send HTTP requests with relevant data and company information to the appropriate endpoints.
-
-    4. The executed commands will interact with the MongoDB module for data storage and retrieval. The SQL database will be updated by the Company Servlet with company and product data.
+1. Install the project by cloning the repository, setting up dependencies, configuring the platform settings, building the project, and starting the web server.
+2. Set up a Tomcat server and deploy the project. Configure the Gateway Server to listen for incoming HTTP requests.
+3. Start the server and send HTTP requests with relevant data and company information to the appropriate endpoints.
+4. The executed commands will interact with the MongoDB module for data storage and retrieval. The SQL database will be updated by the Company Servlet with company and product data.
 
 ## Features
 The Generic IoT Infrastructure offers a range of features to facilitate efficient IoT operations and data management:
